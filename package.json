@@ -6,6 +6,21 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": {
+    "name": "Raul Belloso",
+    "email": "raul.belloso@example.com",
+    "url": "https://github.com/raulbellosom"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raulbellosom/amor-ui.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.js",
