@@ -1,0 +1,10 @@
+@import "./tokens.css";
+@import "tailwindcss";
+
+/* Placeholder de componentes base */
+@layer components {
+  .amor-btn {
+    @apply inline-flex items-center justify-center rounded-xl font-medium outline-none focus-visible:ring-2;
+    border-radius: var(--amor-radius);
+  }
+}

@@ -1,0 +1,18 @@
+:root {
+  --amor-radius: 0.75rem;
+  --amor-font-sans: ui-sans-serif, system-ui, Inter, "Segoe UI", Roboto, Arial;
+
+  /* HSL tokens (H S L) */
+  --amor-brand: 221 83% 53%;
+  --amor-surface: 0 0% 100%;
+  --amor-surface-elevated: 0 0% 98%;
+  --amor-muted: 220 9% 46%;
+  --amor-muted-foreground: 220 9% 26%;
+}
+
+[data-theme="dark"] {
+  --amor-surface: 222 16% 10%;
+  --amor-surface-elevated: 222 16% 14%;
+  --amor-muted: 220 9% 60%;
+  --amor-muted-foreground: 220 9% 80%;
+}
